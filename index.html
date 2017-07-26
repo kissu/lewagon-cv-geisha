@@ -8,12 +8,19 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css"></head>
   <body>
-
+  <div id="sidebar">
+    <ul>
+      <li><a href="#summary"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+      <li><a href="#favorite-movies"><i class="fa fa-film" aria-hidden="true"></i></a></li>
+      <li><a href="#help"><i class="fa fa-code" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+  <div id="page-content">
     <div class="container text-center">
       <div class="card">
         <header>
           <img src="kos.jpg" alt="ma tête de ouf">
-          <h1>
+          <h1 id="summary">
             kos
           </h1>
           <h2>
@@ -32,21 +39,21 @@
       <div class="card">
         <ul>
           <li>
-            <a href="#" class="facebook">
+            <a href="https://www.facebook.com/sylvain.peigney" class="facebook">
               <i class="fa fa-facebook" aria-hidden="true">
                 Facebook
               </i>
             </a>
           </li>
           <li>
-            <a href="#" class="linkedin">
+            <a href="https://www.linkedin.com/in/sylvainpeigney/?ppe=1" class="linkedin">
               <i class="fa fa-linkedin" aria-hidden="true">
                 Linkedin
               </i>
             </a>
           </li>
           <li>
-            <a href="#" class="twitter">
+            <a href="https://twitter.com/volpeo" class="twitter">
               <i class="fa fa-twitter" aria-hidden="true">
                 Twitter
               </i>
@@ -56,7 +63,7 @@
       </div>
 
       <div class="card">
-        <h2>
+        <h2 id="favorite-movies">
           My favorite movies
         </h2>
         <article>
@@ -86,7 +93,7 @@
 
         <div class="card">
           <footer>
-            <h2>About this page</h2>
+            <h2 id="help">About this page</h2>
             <p>
               This page has been done dueing a random formation@Lewagon Bordeaux with some awesome buddies
             </p>
@@ -103,6 +110,7 @@
             </ul>
           </footer>
         </div>
+      </div>
       </div>
 
     </body>
