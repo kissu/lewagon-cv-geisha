@@ -1,3 +1,4 @@
+/*https://kissu.github.io/profile/*/
 * {
   background-color: #EFE9AE;
   font-family: 'Roboto', sans-serif;
@@ -63,29 +64,34 @@ a {
 ul {
   padding: 20px;
 }
-[class^="fa-"]:hover {
-  transition: 1s;
-}
-[class*="facebook"]:hover, .card a:hover {
-  color: #3b5998;
-}
-[class*="linkedin"]:hover, .card a:hover {
-  color: #caccce;
-}
-[class*="twitter"]:hover, .card a:hover {
-  color: #1dcaff;
-}
 li {
   list-style-type: none;
   display: inline-block;
   font-size: 25px;
   padding: 10px;
 }
+.list-inline > li:hover {
+  color: red;
+}
+[class^="fa-"]:hover {
+  transition: 1s;
+}
+[class*="facebook"]:hover{
+  color: #3b5998;
+}
+[class*="linkedin"]:hover{
+  color: #caccce;
+}
+[class*="twitter"]:hover{
+  color: #1dcaff;
+}
 .list-inline > li {
   padding: 20px;
   width: 30%;
 }
-
+.list-inline *:hover{
+  color: #EBBA05;
+}
 h2 {
   padding: 10px;
 }
